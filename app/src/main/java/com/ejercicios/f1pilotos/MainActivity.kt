@@ -85,7 +85,12 @@ fun getListaPilotosF1(): List<PilotoF1> {
             equipo = "Red Bull",
             nacionalidad = "Países Bajos"
         ),
-        // Add the rest of your pilots here...
+        PilotoF1(
+            nombre = "Charles Leclerc",
+            fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/1col/image.png",
+            equipo = "Ferrari",
+            nacionalidad = "Mónaco"
+        ),
         PilotoF1(
             nombre = "Fernando Alonso",
             fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/1col/image.png",
@@ -93,12 +98,43 @@ fun getListaPilotosF1(): List<PilotoF1> {
             nacionalidad = "España"
         ),
         PilotoF1(
+            nombre = "Lando Norris",
+            fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/1col/image.png",
+            equipo = "McLaren",
+            nacionalidad = "Reino Unido"
+        ),
+        PilotoF1(
+            nombre = "Sergio Pérez",
+            fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/1col/image.png",
+            equipo = "Red Bull",
+            nacionalidad = "México"
+        ),
+        PilotoF1(
             nombre = "Carlos Sainz",
             fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/1col/image.png",
             equipo = "Ferrari",
             nacionalidad = "España"
+        ),
+        PilotoF1(
+            nombre = "George Russell",
+            fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/1col/image.png",
+            equipo = "Mercedes",
+            nacionalidad = "Reino Unido"
+        ),
+        PilotoF1(
+            nombre = "Oscar Piastri",
+            fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/O/OSCPIA01_Oscar_Piastri/oscpia01.png.transform/1col/image.png",
+            equipo = "McLaren",
+            nacionalidad = "Australia"
+        ),
+        PilotoF1(
+            nombre = "Esteban Ocon",
+            fotoUrl = "https://www.formula1.com/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/1col/image.png",
+            equipo = "Alpine",
+            nacionalidad = "Francia"
         )
     )
+
 }
 
 @Composable
