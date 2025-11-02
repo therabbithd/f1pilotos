@@ -13,7 +13,7 @@ Esta es una aplicación que lista pilotos de Fórmula 1.
 - Información básica de cada piloto (a completar con detalles específicos del proyecto)
 
 ## Arquitectura del proyecto
-
+```
 f1pilotos/
 ├─ app/
 │ ├─ src/
@@ -35,7 +35,7 @@ f1pilotos/
 ├─ gradle/ # Wrapper y versiones
 │ └─ libs.versions.toml # Catálogo de versiones/dependencias
 └─ README.md
-
+```
 text
 
 ## Cómo usar
